@@ -33,6 +33,10 @@ p {
     display: inline-block;
 }
 
+#frontend {
+    text-align: left;
+}
+
 .backend {
     font-weight: bold;
     border-style: solid;
@@ -46,6 +50,11 @@ p {
     display: inline-block;
 }
 
+#backend {
+    text-align: left;
+}
+
+
 .generaldev {
     font-weight: bold;
     border-style: solid;
@@ -57,6 +66,8 @@ p {
     margin-bottom: 15px;
     display: inline-block;
 }
+
+
 
 .lowlvldev {
     font-weight: bold;
