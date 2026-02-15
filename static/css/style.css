@@ -3,6 +3,66 @@ body {
     color: rgb(134, 115, 115);
 }
 
+ul {
+    list-style-type: none;
+    font-size: 26px;
+    font-style: bold;
+}
+
+p {
+    font-style: bold;
+
+}
+
+.info {
+    font-size: 26px;
+    line-height: 15px;
+}
+
+.frontend {
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.backend {
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.generaldev {
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.lowlvldev {
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
 .card {
     border-style: solid;
     border-width: 5px;
@@ -10,6 +70,13 @@ body {
     padding: 15px;
 }
 
+.head {
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+}
 
 .photo {
     border-style: solid;
@@ -26,7 +93,6 @@ body {
 .about {
     border-style: solid;
     border-width: 5px;
-    margin-bottom: 10px;
 }
 
 .contact {
