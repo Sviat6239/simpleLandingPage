@@ -2,14 +2,20 @@ const html = document.querySelector('#html');
 const css = document.querySelector('#css');
 const js = document.querySelector('#js');
 const ts = document.querySelector('#ts');
+const quickjs = document.querySelector('#quickjs');
+const react = document.querySelector('#react');
+const svelte = document.querySelector('#svelte');
+const solidjs = document.querySelector('#solidjs');
 
 const djang = document.querySelector('#django');
 const flask = document.querySelector('#flask');
 const falcon = document.querySelector('#falcon');
 
 const nodejs = document.querySelector('#nodejs');
+const bun = document.querySelector('#bun');
 const fastify = document.querySelector('#fastify');
 const express = document.querySelector('#express');
+const elysiajs = document.querySelector('#elysiajs');
 
 const c = document.querySelector('#c');
 const d = document.querySelector('#d');
@@ -33,4 +39,7 @@ const linuxServer = document.querySelector('#linuxserver');
 const windowsServer = document.querySelector('#windowsServer');
 const bash = document.querySelector('#bash');
 const powerShell = document.querySelector('#powershell');
+const git = document.querySelector('#git');
+const github = document.querySelector('#github');
+const vscode = document.querySelector('#vscode');
 
