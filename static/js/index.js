@@ -97,4 +97,9 @@ document.addEventListener('DOMContentLoaded', () => {
     git.innerHTML = 'Git <span class="badge" id="advanced">Advanced</span>';
     github.innerHTML = 'GitHub <span class="badge" id="advanced">Advanced</span>';
     vscode.innerHTML = 'VSCode <span class="badge" id="advanced">Advanced</span>';
+
+    sqlite3.innerHTML = 'SQLite3 <span class="badge" id="intermediate">Intermediate</span>';
+    postgresql.innerHTML = 'PostgreSQL <span class="badge" id="basic">Basic</span>';
+    sqlalchemy.innerHTML = 'SQLAlchemy <span class="badge" id="basic">Basic</span>';
+    mongoose.innerHTML = 'Mongoose <span class="badge" id="basic">Basic</span>';
 })
