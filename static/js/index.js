@@ -65,5 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
     express.innerHTML = 'Express <span class="badge" id="elementary">Elementary</span>';
     elysiajs.innerHTML = 'Elysiajs <span class="badge" id="elementary">Elementary</span>';
 
-
+    c.innerHTML = 'C <span class="badge" id="basic">Basic</span>';
+    d.innerHTML = 'D <span class="badge" id="elementary">Elementary</span>';
+    cpp.innerHTML = 'C++ <span class="badge" id="elementary">Elementary</span>';
+    csharp.innerHTML = 'C# <span class="badge" id="basic">Basic</span>';
 })
