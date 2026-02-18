@@ -68,7 +68,6 @@ p {
 }
 
 
-
 .lowlvldev {
     font-weight: bold;
     border-style: solid;
@@ -132,4 +131,35 @@ p {
     border-style: solid;
     border-width: 5px;
 
+}
+
+span {
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 2px;
+    color: rgb(41, 126, 201);
+}
+
+#begginer {
+    background-color: lightgreen;
+}
+
+#elementary {
+    background-color: yellowgreen;
+}
+
+#basic {
+    background-color: yellow;
+}
+
+#intermediate {
+    background-color: orange;
+}
+
+#advanced {
+    background-color: red;
+}
+
+#expert {
+    background-color: black;
 }
