@@ -45,6 +45,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const github = document.querySelector('#github');
     const vscode = document.querySelector('#vscode');
 
+    const sqlite3 = document.querySelector('#sqlite3');
+    const postgresql = document.querySelector('#postgresql');
+    const sqlalchemy = document.querySelector('#sqlalchemy');
+    const mongoose = document.querySelector('#mongoose');
+
 
     html.innerHTML = 'HTML <span class="badge" id="advanced">Advansed</span>';
     css.innerHTML = 'CSS <span class="badge" id = "intermediate">Intermediate</span>';
@@ -80,4 +85,16 @@ document.addEventListener('DOMContentLoaded', () => {
     rv32.innerHTML = 'RV32 <span class="badge" id="begginer">Begginer</span>';
     i8080.innerHTML = 'I8080 <span class="badge" id="elementary">Elementary</span>';
     z80.innerHTML = 'Z80 <span class="badge" id="elementary">Elementary</span>';
+
+    linux.innerHTML = 'Linux <span class="badge" id="intermediate">Intermediate</span>';
+    proxmox.innerHTML = 'Linux <span class="badge" id="elementary">Elementary</span>';
+    windows.innerHTML = 'Windows <span class="badge" id="intermediate">Intermediate</span>';
+    linuxServer.innerHTML = 'Linux-Server <span class="badge" id="elementary">Elementary</span>';
+    windowsServer.InnerHTML = 'Windows-Server <span class="badge" id="begginer">Begginer</span>';
+    bash.innerHTML = 'Bash <span class="badge" id="intermediate">Intermediate</span>';
+    powerShell.innerHTML = 'PowerShell <span class="badge" id="basic">Basic</span>';
+
+    git.innerHTML = 'Git <span class="badge" id="advanced">Advanced</span>';
+    github.innerHTML = 'GitHub <span class="badge" id="advanced">Advanced</span>';
+    vscode.innerHTML = 'VSCode <span class="badge" id="advanced">Advanced</span>';
 })
