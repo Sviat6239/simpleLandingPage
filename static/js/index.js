@@ -59,5 +59,11 @@ document.addEventListener('DOMContentLoaded', () => {
     flask.innerHTML = 'Flask <span class="badge" id="advanced">Adnaced</span>';
     falcon.innerHTML = 'Falcon <span class="badge" id="elementary">Elementary</span>';
 
+    nodejs.innerHTML = 'Node.JS <span class="badge" id="elementary">Elementary</span>';
+    bun.innerHTML = 'Bun <span class="badge" id="begginer">Begginer</span>';
+    fastify.innerHTML = 'Fastify <span class="badge" id="begginer">Begginer</span>';
+    express.innerHTML = 'Express <span class="badge" id="elementary">Elementary</span>';
+    elysiajs.innerHTML = 'Elysiajs <span class="badge" id="elementary">Elementary</span>';
+
 
 })
