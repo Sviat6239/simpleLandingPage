@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const svelte = document.querySelector('#svelte');
     const solidjs = document.querySelector('#solidjs');
 
-    const djang = document.querySelector('#django');
+    const django = document.querySelector('#django');
     const flask = document.querySelector('#flask');
     const falcon = document.querySelector('#falcon');
 
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     html.innerHTML = 'HTML <span class="badge" id="advanced">Advansed</span>';
     css.innerHTML = 'CSS <span class="badge" id = "intermediate">Intermediate</span>';
-    js.innerHTML = 'JS <span class="badge" id="basic">Basic</span>';
+    js.innerHTML = 'JS <span class="badge" id="intermediate">Intermediate</span>';
     ts.innerHTML = 'TS <span class="badge" id="elementary">Elementary</span>';
     quickjs.innerHTML = 'Quick.JS <span class="badge" id="begginer">Begginer</span>';
     react.innerHTML = 'React <span class="badge" id="begginer">Begginer</span>';
@@ -69,4 +69,15 @@ document.addEventListener('DOMContentLoaded', () => {
     d.innerHTML = 'D <span class="badge" id="elementary">Elementary</span>';
     cpp.innerHTML = 'C++ <span class="badge" id="elementary">Elementary</span>';
     csharp.innerHTML = 'C# <span class="badge" id="basic">Basic</span>';
+    lua.innerHTML = 'Lua <span class="badge" id="elementary">Elementary</span>';
+    python.innerHTML = 'Python <span class="badge" id="advanced">Advanced</span>';
+    nodejsGeneralDev.innerHTML = 'Node.JS <span class="badge" id="elementary">Elementary</span>';
+
+    fasm.innerHTML = 'FASM <span class="badge" id="elementary">Elementary</span>';
+    nasm.innerHTML = 'NASM <span class="badge" id="elementary">Elementary</span>';
+    tasm.innerHTML = 'TASM <span class="badge" id="begginer">Begginer</span>';
+    masm.innerHTML = 'MASM <span class="badge" id="begginer">Begginer</span>';
+    rv32.innerHTML = 'RV32 <span class="badge" id="begginer">Begginer</span>';
+    i8080.innerHTML = 'I8080 <span class="badge" id="elementary">Elementary</span>';
+    z80.innerHTML = 'Z80 <span class="badge" id="elementary">Elementary</span>';
 })
