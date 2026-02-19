@@ -2,9 +2,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const btn = document.getElementById('lang-toggle');
     const langFlag = document.getElementById('lang-flag');
+    const langText = document.getElementById('lang-text');
 
-    const ENG_FLAG = "";
-    const POL_FLAG = "";
+    const ENG_FLAG = "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom_%283-5%29.svg";
+    const POL_FLAG = "https://en.wikipedia.org/wiki/File:Flag_of_Poland.svg";
 
     let currentLang = document.documentElement.lang || 'en';
 
@@ -12,9 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (langToSwitchTo === 'pl') {
             langFlag.src = POL_FLAG;
             langFlag.alt = 'Polski';
+            langText.textContent = 'PL';
         } else {
             langFlag.src = ENG_FLAG;
             langFlag.alt = 'English';
+            langText.textContent = 'EN';
         }
     };
 
@@ -28,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (text) el.textContent = text;
         });
 
-        setFlagFor(newLang);
+        setFlagFor(currentLang);
         document.documentElement.lang = newLang;
         currentLang = newLang;
     });
