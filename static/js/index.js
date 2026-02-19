@@ -1,4 +1,39 @@
 document.addEventListener('DOMContentLoaded', () => {
+
+    const btn = document.getElementById('lang-toggle');
+    const langFlag = document.getElementById('lang-flag');
+
+    const ENG_FLAG = "";
+    const POL_FLAG = "";
+
+    let currentLang = document.documentElement.lang || 'en';
+
+    const setFlagFor = (langToSwitchTo) => {
+        if (langToSwitchTo === 'pl') {
+            langFlag.src = POL_FLAG;
+            langFlag.alt = 'Polski';
+        } else {
+            langFlag.src = ENG_FLAG;
+            langFlag.alt = 'English';
+        }
+    };
+
+    setFlagFor(currentLang === 'en' ? 'pl' : 'en');
+
+    btn.addEventListener('click', () => {
+        const newLang = currentLang === 'en' ? 'pl' : 'en';
+
+        document.querySelectorAll('[data-lang]').forEach(el => {
+            const text = el.getAttribute(`data-lang-${newLang}`);
+            if (text) el.textContent = text;
+        });
+
+        setFlagFor(newLang);
+        document.documentElement.lang = newLang;
+        currentLang = newLang;
+    });
+
+
     const html = document.querySelector('#html');
     const css = document.querySelector('#css');
     const js = document.querySelector('#js');
@@ -90,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
     proxmox.innerHTML = 'Linux <span class="badge" id="elementary">Elementary</span>';
     windows.innerHTML = 'Windows <span class="badge" id="intermediate">Intermediate</span>';
     linuxServer.innerHTML = 'Linux-Server <span class="badge" id="elementary">Elementary</span>';
-    windowsServer.InnerHTML = 'Windows-Server <span class="badge" id="begginer">Begginer</span>';
+    windowsServer.innerHTML = 'Windows-Server <span class="badge" id="begginer">Begginer</span>';
     bash.innerHTML = 'Bash <span class="badge" id="intermediate">Intermediate</span>';
     powerShell.innerHTML = 'PowerShell <span class="badge" id="basic">Basic</span>';
 
