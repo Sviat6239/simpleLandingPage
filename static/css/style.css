@@ -190,3 +190,58 @@ span {
 #lang-text {
     text-decoration: none;
 }
+
+.about:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+}
+
+.contact:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+}
+
+.general:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+}
+
+.photo:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+}
+
+.frontend:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+}
+
+.backend:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+}
+
+.generaldev:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+}
+
+.lowlvldev:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+}
+
+.sysadmin:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+}
+
+.databases:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+}
