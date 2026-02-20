@@ -194,54 +194,71 @@ span {
 .about:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.head:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .general:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .photo:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .frontend:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .backend:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .generaldev:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .lowlvldev:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .sysadmin:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .databases:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
