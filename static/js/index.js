@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     nodejs.innerHTML = 'Node.JS <span class="badge" id="elementary">Elementary</span>';
     bun.innerHTML = 'Bun <span class="badge" id="begginer">Begginer</span>';
-    fastify.innerHTML = 'Fastify <span class="badge" id="begginer">Begginer</span>';
+    fastify.innerHTML = 'Fastify <span class="badge" id="elementary">Elementary</span>';
     express.innerHTML = 'Express <span class="badge" id="elementary">Elementary</span>';
     elysiajs.innerHTML = 'Elysiajs <span class="badge" id="elementary">Elementary</span>';
 
@@ -140,4 +140,11 @@ document.addEventListener('DOMContentLoaded', () => {
     postgresql.innerHTML = 'PostgreSQL <span class="badge" id="basic">Basic</span>';
     sqlalchemy.innerHTML = 'SQLAlchemy <span class="badge" id="basic">Basic</span>';
     mongoose.innerHTML = 'Mongoose <span class="badge" id="basic">Basic</span>';
+
+    const themeToggle = document.querySelector('#theme-toggle');
+    const themeToggleText = document.querySelector('#theme-toggle-text');
+    const body = document.querySelectorByName('body');
+    themeToggle.addEventListener('click', () => {
+
+    })
 })
