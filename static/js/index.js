@@ -147,6 +147,12 @@ document.addEventListener('DOMContentLoaded', () => {
     sqlalchemy.innerHTML = 'SQLAlchemy <span class="badge" id="basic">Basic</span>';
     mongoose.innerHTML = 'Mongoose <span class="badge" id="basic">Basic</span>';
 
+    polish.innerHTML = 'Polish <span class="badge" id="b2">B2</span>';
+    english.innerHTML = 'English <span class="badge" id="b2">B2</span>';
+    ukrainian.innerHTML = 'Ukrainian <span class="badge" id="c2">C2</span>';
+    german.innerHTML = 'German <span class="badge" id="a2">A2</span>';
+    russian.innerHTML = 'russian <span class="badge" id="c2">C2<span>';
+
     const themeToggle = document.querySelector('#theme-toggle');
     const themeToggleText = document.querySelector('#theme-toggle-text');
     const body = document.querySelectorByName('body');
