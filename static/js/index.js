@@ -151,12 +151,62 @@ document.addEventListener('DOMContentLoaded', () => {
     english.innerHTML = 'English <span class="badge" id="b2">B2</span>';
     ukrainian.innerHTML = 'Ukrainian <span class="badge" id="c2">C2</span>';
     german.innerHTML = 'German <span class="badge" id="a2">A2</span>';
-    russian.innerHTML = 'russian <span class="badge" id="c2">C2<span>';
+    russian.innerHTML = 'russian <span class="badge" id="c2">C2</span>';
 
-    const themeToggle = document.querySelector('#theme-toggle');
-    const themeToggleText = document.querySelector('#theme-toggle-text');
-    const body = document.querySelectorByName('body');
-    themeToggle.addEventListener('click', () => {
 
-    })
+    const nativeLanguages = document.querySelector('.nativelanguages');
+    const frontend = document.querySelector('.frontend');
+    const backend = document.querySelector('.backend');
+    const generaldev = document.querySelector('.generaldev');
+    const lowlvldev = document.querySelector('.lowlvldev');
+    const sysadmin = document.querySelector('.sysadmin');
+    const databases = document.querySelector('.databases');
+
+    const allBadges = document.querySelectorAll('.badge');
+
+    allBadges.forEach(badge => {
+        badge.style.opacity = '0';
+        badge.style.transform = 'translateY(-10px)';
+        badge.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+    });
+
+    const animateContainer = (container) => {
+        if (!container) return;
+
+        const badges = container.querySelectorAll('.badge');
+        let timeouts = [];
+
+        container.addEventListener('mouseenter', () => {
+            timeouts = [];
+
+            badges.forEach((badge, index) => {
+                const timeout = setTimeout(() => {
+                    badge.style.opacity = '1';
+                    badge.style.transform = 'translateY(0)';
+                }, index * 120);
+
+                timeouts.push(timeout);
+            });
+        });
+
+        container.addEventListener('mouseleave', () => {
+
+            timeouts.forEach(timeout => clearTimeout(timeout));
+            timeouts = [];
+
+            badges.forEach(badge => {
+                badge.style.opacity = '0';
+                badge.style.transform = 'translateY(-10px)';
+            });
+        });
+    };
+
+    animateContainer(frontend);
+    animateContainer(backend);
+    animateContainer(generaldev);
+    animateContainer(lowlvldev);
+    animateContainer(sysadmin);
+    animateContainer(databases);
+    animateContainer(nativeLanguages);
+
 })

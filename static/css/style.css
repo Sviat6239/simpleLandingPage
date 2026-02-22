@@ -163,7 +163,7 @@ span {
     font-weight: bold;
     border-radius: 5px;
     padding: 2px;
-    color: rgb(127, 119, 119);
+    color: rgb(0, 0, 0);
 }
 
 #begginer {
@@ -190,12 +190,24 @@ span {
     background-color: black;
 }
 
+#a1 {
+    background-color: lightgreen;
+}
+
 #a2 {
     background-color: green;
 }
 
+#b1 {
+    background: yellow;
+}
+
 #b2 {
     background-color: orange;
+}
+
+#c1 {
+    background-color: red;
 }
 
 #c2 {
@@ -215,13 +227,6 @@ span {
 
 #lang-text {
     text-decoration: none;
-}
-
-#theme-toggle {
-    border-radius: 5px;
-    border-width: 5px;
-    color: rgb(134, 115, 115);
-    background-color: rgb(30, 27, 27);
 }
 
 .nativelanguages:hover {
@@ -300,4 +305,11 @@ span {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (hover: none) {
+    .badge {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+    }
 }
