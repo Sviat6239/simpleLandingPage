@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
     nodejs.innerHTML = 'Node.JS <span class="badge" id="elementary">Elementary</span>';
     bun.innerHTML = 'Bun <span class="badge" id="begginer">Begginer</span>';
     fastify.innerHTML = 'Fastify <span class="badge" id="elementary">Elementary</span>';
-    express.innerHTML = 'Express <span class="badge" id="elementary">Elementary</span>';
+    express.innerHTML = 'Express <span class="badge" id="begginer">Begginer</span>';
     elysiajs.innerHTML = 'Elysiajs <span class="badge" id="elementary">Elementary</span>';
 
     c.innerHTML = 'C <span class="badge" id="basic">Basic</span>';
@@ -114,14 +114,14 @@ document.addEventListener('DOMContentLoaded', () => {
     csharp.innerHTML = 'C# <span class="badge" id="basic">Basic</span>';
     lua.innerHTML = 'Lua <span class="badge" id="elementary">Elementary</span>';
     python.innerHTML = 'Python <span class="badge" id="advanced">Advanced</span>';
-    nodejsGeneralDev.innerHTML = 'Node.JS <span class="badge" id="elementary">Elementary</span>';
+    nodejsGeneralDev.innerHTML = 'Node.JS <span class="badge" id="intermediate">Inremediate</span>';
 
     fasm.innerHTML = 'FASM <span class="badge" id="elementary">Elementary</span>';
     nasm.innerHTML = 'NASM <span class="badge" id="elementary">Elementary</span>';
     tasm.innerHTML = 'TASM <span class="badge" id="begginer">Begginer</span>';
     masm.innerHTML = 'MASM <span class="badge" id="begginer">Begginer</span>';
     rv32.innerHTML = 'RV32 <span class="badge" id="begginer">Begginer</span>';
-    i8080.innerHTML = 'I8080 <span class="badge" id="elementary">Elementary</span>';
+    i8080.innerHTML = 'I8080 <span class="badge" id="begginer">Begginer</span>';
     z80.innerHTML = 'Z80 <span class="badge" id="elementary">Elementary</span>';
 
     linux.innerHTML = 'Linux <span class="badge" id="intermediate">Intermediate</span>';
