@@ -88,6 +88,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const sqlalchemy = document.querySelector('#sqlalchemy');
     const mongoose = document.querySelector('#mongoose');
 
+    const english = document.querySelector('#english');
+    const polish = document.querySelector('#polish');
+    const ukrainian = document.querySelector('#ukrainian');
+    const german = document.querySelector('#german');
+    const russian = document.querySelector('#russian');
+
 
     html.innerHTML = 'HTML <span class="badge" id="advanced">Advansed</span>';
     css.innerHTML = 'CSS <span class="badge" id = "intermediate">Intermediate</span>';
