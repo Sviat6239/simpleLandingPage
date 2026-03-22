@@ -21,6 +21,82 @@
     margin-bottom: 10px;
 }
 
+.frontend-projects {
+    font-weight: bold;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.backend-projects {
+    font-weight: bold;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.fullstack-projects {
+    font-weight: bold;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.misc {
+    font-weight: bold;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.frontend-projects:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.backend-projects:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fullstack-projects:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.misc:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .togeneral:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(217, 204, 204, 0.3);

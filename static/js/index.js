@@ -1,40 +1,28 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     const btn = document.getElementById('lang-toggle');
-    const langFlag = document.getElementById('lang-flag');
-    const langText = document.getElementById('lang-text');
 
-    const ENG_FLAG = "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom_%283-5%29.svg";
-    const POL_FLAG = "https://en.wikipedia.org/wiki/File:Flag_of_Poland.svg";
+    const languages = ['en', 'pl', 'de'];
 
-    let currentLang = document.documentElement.lang || 'en';
+    let currentIndex = languages.indexOf(document.documentElement.lang);
+    if (currentIndex === -1) currentIndex = 0;
 
-    const setFlagFor = (langToSwitchTo) => {
-        if (langToSwitchTo === 'pl') {
-            langFlag.src = POL_FLAG;
-            langFlag.alt = 'Polski';
-            langText.textContent = 'PL';
-        } else {
-            langFlag.src = ENG_FLAG;
-            langFlag.alt = 'English';
-            langText.textContent = 'EN';
-        }
-    };
-
-    setFlagFor(currentLang === 'en' ? 'pl' : 'en');
-
-    btn.addEventListener('click', () => {
-        const newLang = currentLang === 'en' ? 'pl' : 'en';
-
-        document.querySelectorAll('[data-lang]').forEach(el => {
-            const text = el.getAttribute(`data-lang-${newLang}`);
+    function applyLanguage(lang) {
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const text = el.dataset[lang];
             if (text) el.textContent = text;
         });
 
-        setFlagFor(currentLang);
-        document.documentElement.lang = newLang;
-        currentLang = newLang;
+        document.documentElement.lang = lang;
+        btn.textContent = lang.toUpperCase();
+    }
+
+    btn.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % languages.length;
+        applyLanguage(languages[currentIndex]);
     });
+
+    applyLanguage(languages[currentIndex]);
 
 
     const html = document.querySelector('#html');
