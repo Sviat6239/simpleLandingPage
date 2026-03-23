@@ -31,7 +31,7 @@ p {
     margin-bottom: 15px;
     margin-top: 15px;
     width: 250px;
-    height: 450px;
+    min-height: 450px;
     display: inline-block;
 }
 
@@ -47,7 +47,7 @@ p {
     margin-bottom: 15px;
     margin-top: 15px;
     width: 250px;
-    height: 450px;
+    min-height: 450px;
     display: inline-block;
 }
 
@@ -63,7 +63,7 @@ p {
     margin-bottom: 15px;
     margin-top: 15px;
     width: 250px;
-    height: 450px;
+    min-height: 450px;
     display: inline-block;
 }
 
@@ -79,7 +79,7 @@ p {
     margin-bottom: 15px;
     margin-top: 15px;
     width: 250px;
-    height: 450px;
+    min-height: 450px;
     display: inline-block;
 }
 
@@ -96,7 +96,7 @@ p {
     margin-bottom: 15px;
     margin-top: 15px;
     width: 250px;
-    height: 450px;
+    min-height: 450px;
     display: inline-block;
 }
 
@@ -112,7 +112,7 @@ p {
     margin-bottom: 15px;
     margin-top: 15px;
     width: 250px;
-    height: 450px;
+    min-height: 450px;
     display: inline-block;
 }
 
@@ -128,7 +128,7 @@ p {
     margin-bottom: 15px;
     margin-top: 15px;
     width: 250px;
-    height: 450px;
+    min-height: 450px;
     display: inline-block;
 }
 
@@ -144,7 +144,7 @@ p {
     margin-bottom: 15px;
     margin-top: 15px;
     width: 250px;
-    height: 450px;
+    min-height: 450px;
     display: inline-block;
 }
 
