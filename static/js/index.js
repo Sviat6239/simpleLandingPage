@@ -67,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const windowsServer = document.querySelector('#windowsServer');
     const bash = document.querySelector('#bash');
     const powerShell = document.querySelector('#powershell');
+    const nginx = document.querySelector('#nginx');
     const git = document.querySelector('#git');
     const github = document.querySelector('#github');
     const vscode = document.querySelector('#vscode');
@@ -121,11 +122,12 @@ document.addEventListener('DOMContentLoaded', () => {
     linux.innerHTML = 'Linux <span class="badge" id="intermediate">Intermediate</span>';
     proxmox.innerHTML = 'Linux <span class="badge" id="elementary">Elementary</span>';
     windows.innerHTML = 'Windows <span class="badge" id="intermediate">Intermediate</span>';
-    linuxServer.innerHTML = 'Linux-Server <span class="badge" id="elementary">Elementary</span>';
+    linuxServer.innerHTML = 'Linux-Server <span class="badge" id=basic>Basic</span>';
     windowsServer.innerHTML = 'Windows-Server <span class="badge" id="beginner">Beginner</span>';
     bash.innerHTML = 'Bash <span class="badge" id="intermediate">Intermediate</span>';
     powerShell.innerHTML = 'PowerShell <span class="badge" id="basic">Basic</span>';
 
+    nginx.innerHTML = 'Nginx <span class="badge" id="elementary">Elementary</span>';
     git.innerHTML = 'Git <span class="badge" id="advanced">Advanced</span>';
     github.innerHTML = 'GitHub <span class="badge" id="advanced">Advanced</span>';
     vscode.innerHTML = 'VSCode <span class="badge" id="advanced">Advanced</span>';
@@ -148,6 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const generaldev = document.querySelector('.generaldev');
     const lowlvldev = document.querySelector('.lowlvldev');
     const sysadmin = document.querySelector('.sysadmin');
+    const other = document.querySelector('.other');
     const databases = document.querySelector('.databases');
 
     const allBadges = document.querySelectorAll('.badge');
@@ -194,6 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
     animateContainer(generaldev);
     animateContainer(lowlvldev);
     animateContainer(sysadmin);
+    animateContainer(other);
     animateContainer(databases);
     animateContainer(nativeLanguages);
 
