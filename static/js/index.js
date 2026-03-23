@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
     z80.innerHTML = 'Z80 <span class="badge" id="elementary">Elementary</span>';
 
     linux.innerHTML = 'Linux <span class="badge" id="intermediate">Intermediate</span>';
-    proxmox.innerHTML = 'Linux <span class="badge" id="elementary">Elementary</span>';
+    proxmox.innerHTML = 'Proxmox <span class="badge" id="elementary">Elementary</span>';
     windows.innerHTML = 'Windows <span class="badge" id="intermediate">Intermediate</span>';
     linuxServer.innerHTML = 'Linux-Server <span class="badge" id=basic>Basic</span>';
     windowsServer.innerHTML = 'Windows-Server <span class="badge" id="beginner">Beginner</span>';
@@ -192,6 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
+    //calling function to animate div
     animateContainer(frontend);
     animateContainer(backend);
     animateContainer(generaldev);
