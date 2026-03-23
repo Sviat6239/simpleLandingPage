@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     applyLanguage(languages[currentIndex]);
 
-
+    //consts
     const html = document.querySelector('#html');
     const css = document.querySelector('#css');
     const js = document.querySelector('#js');
@@ -82,25 +82,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const german = document.querySelector('#german');
     const russian = document.querySelector('#russian');
 
-
-    html.innerHTML = 'HTML <span class="badge" id="advanced">Advansed</span>';
+    //Lvls
+    html.innerHTML = 'HTML <span class="badge" id="advanced">Advanced</span>';
     css.innerHTML = 'CSS <span class="badge" id = "intermediate">Intermediate</span>';
     js.innerHTML = 'JS <span class="badge" id="intermediate">Intermediate</span>';
     ts.innerHTML = 'TS <span class="badge" id="elementary">Elementary</span>';
-    quickjs.innerHTML = 'Quick.JS <span class="badge" id="begginer">Begginer</span>';
-    react.innerHTML = 'React <span class="badge" id="begginer">Begginer</span>';
-    svelte.innerHTML = 'Svelte <span class="badge" id="begginer">Begginer</span>';
-    solidjs.innerHTML = 'Solid.JS <span class="badge" id="begginer">Begginer</span>';
+    quickjs.innerHTML = 'Quick.JS <span class="badge" id="beginner">Beginner</span>';
+    react.innerHTML = 'React <span class="badge" id="beginner">Beginner</span>';
+    svelte.innerHTML = 'Svelte <span class="badge" id="beginner">Beginner</span>';
+    solidjs.innerHTML = 'Solid.JS <span class="badge" id="beginner">Beginner</span>';
 
     django.innerHTML = 'Django <span class="badge" id="intermediate">Intermediate</span>';
-    flask.innerHTML = 'Flask <span class="badge" id="advanced">Adnaced</span>';
+    flask.innerHTML = 'Flask <span class="badge" id="advanced">Advanced</span>';
     falcon.innerHTML = 'Falcon <span class="badge" id="elementary">Elementary</span>';
 
     nodejs.innerHTML = 'Node.JS <span class="badge" id="elementary">Elementary</span>';
-    bun.innerHTML = 'Bun <span class="badge" id="begginer">Begginer</span>';
-    fastify.innerHTML = 'Fastify <span class="badge" id="elementary">Elementary</span>';
-    express.innerHTML = 'Express <span class="badge" id="begginer">Begginer</span>';
-    elysiajs.innerHTML = 'Elysiajs <span class="badge" id="elementary">Elementary</span>';
+    bun.innerHTML = 'Bun <span class="badge" id="beginner">Beginner</span>';
+    fastify.innerHTML = 'Fastify <span class="badge" id="basic">Basic</span>';
+    express.innerHTML = 'Express <span class="badge" id="beginner">Beginner</span>';
+    elysiajs.innerHTML = 'Elysia.js <span class="badge" id="beginner">Beginner</span>';
 
     c.innerHTML = 'C <span class="badge" id="basic">Basic</span>';
     d.innerHTML = 'D <span class="badge" id="elementary">Elementary</span>';
@@ -108,21 +108,21 @@ document.addEventListener('DOMContentLoaded', () => {
     csharp.innerHTML = 'C# <span class="badge" id="basic">Basic</span>';
     lua.innerHTML = 'Lua <span class="badge" id="elementary">Elementary</span>';
     python.innerHTML = 'Python <span class="badge" id="advanced">Advanced</span>';
-    nodejsGeneralDev.innerHTML = 'Node.JS <span class="badge" id="intermediate">Inremediate</span>';
+    nodejsGeneralDev.innerHTML = 'Node.JS <span class="badge" id="intermediate">Intermediate</span>';
 
     fasm.innerHTML = 'FASM <span class="badge" id="elementary">Elementary</span>';
     nasm.innerHTML = 'NASM <span class="badge" id="elementary">Elementary</span>';
-    tasm.innerHTML = 'TASM <span class="badge" id="begginer">Begginer</span>';
-    masm.innerHTML = 'MASM <span class="badge" id="begginer">Begginer</span>';
-    rv32.innerHTML = 'RV32 <span class="badge" id="begginer">Begginer</span>';
-    i8080.innerHTML = 'I8080 <span class="badge" id="begginer">Begginer</span>';
+    tasm.innerHTML = 'TASM <span class="badge" id="beginner">Beginner</span>';
+    masm.innerHTML = 'MASM <span class="badge" id="beginner">Beginner</span>';
+    rv32.innerHTML = 'RV32 <span class="badge" id="beginner">Beginner</span>';
+    i8080.innerHTML = 'I8080 <span class="badge" id="beginner">Beginner</span>';
     z80.innerHTML = 'Z80 <span class="badge" id="elementary">Elementary</span>';
 
     linux.innerHTML = 'Linux <span class="badge" id="intermediate">Intermediate</span>';
     proxmox.innerHTML = 'Linux <span class="badge" id="elementary">Elementary</span>';
     windows.innerHTML = 'Windows <span class="badge" id="intermediate">Intermediate</span>';
     linuxServer.innerHTML = 'Linux-Server <span class="badge" id="elementary">Elementary</span>';
-    windowsServer.innerHTML = 'Windows-Server <span class="badge" id="begginer">Begginer</span>';
+    windowsServer.innerHTML = 'Windows-Server <span class="badge" id="beginner">Beginner</span>';
     bash.innerHTML = 'Bash <span class="badge" id="intermediate">Intermediate</span>';
     powerShell.innerHTML = 'PowerShell <span class="badge" id="basic">Basic</span>';
 
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
     polish.innerHTML = 'Polish <span class="badge" id="b2">B2</span>';
     english.innerHTML = 'English <span class="badge" id="b2">B2</span>';
     ukrainian.innerHTML = 'Ukrainian <span class="badge" id="c2">C2</span>';
-    german.innerHTML = 'German <span class="badge" id="a2">A2</span>';
+    german.innerHTML = 'German <span class="badge" id="a1">A1</span>';
     russian.innerHTML = 'russian <span class="badge" id="c2">C2</span>';
 
 

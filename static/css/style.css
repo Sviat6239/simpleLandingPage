@@ -21,6 +21,7 @@ p {
 }
 
 .nativelanguages {
+    border-radius: 15px;
     font-weight: bold;
     border-style: solid;
     border-width: 5px;
@@ -34,6 +35,7 @@ p {
 }
 
 .frontend {
+    border-radius: 15px;
     font-weight: bold;
     border-style: solid;
     border-width: 5px;
@@ -44,13 +46,10 @@ p {
     margin-bottom: 15px;
     margin-top: 15px;
     display: inline-block;
-}
-
-#frontend {
-    text-align: left;
 }
 
 .backend {
+    border-radius: 15px;
     font-weight: bold;
     border-style: solid;
     border-width: 5px;
@@ -63,12 +62,8 @@ p {
     display: inline-block;
 }
 
-#backend {
-    text-align: left;
-}
-
-
 .generaldev {
+    border-radius: 15px;
     font-weight: bold;
     border-style: solid;
     border-width: 5px;
@@ -82,6 +77,7 @@ p {
 
 
 .lowlvldev {
+    border-radius: 15px;
     font-weight: bold;
     border-style: solid;
     border-width: 5px;
@@ -95,6 +91,7 @@ p {
 }
 
 .sysadmin {
+    border-radius: 15px;
     font-weight: bold;
     border-style: solid;
     border-width: 5px;
@@ -108,6 +105,7 @@ p {
 }
 
 .databases {
+    border-radius: 15px;
     font-weight: bold;
     border-style: solid;
     border-width: 5px;
@@ -121,6 +119,7 @@ p {
 }
 
 .toprojects {
+    border-radius: 15px;
     border-style: solid;
     border-width: 5px;
     text-align: center;
@@ -132,6 +131,7 @@ p {
 }
 
 .card {
+    border-radius: 10px;
     border-style: solid;
     border-width: 5px;
     text-align: center;
@@ -139,6 +139,7 @@ p {
 }
 
 .head {
+    border-radius: 15px;
     border-style: solid;
     border-width: 5px;
     text-align: center;
@@ -147,23 +148,27 @@ p {
 }
 
 .photo {
+    border-radius: 15px;
     border-style: solid;
     border-width: 5px;
     margin-bottom: 10px;
 }
 
 .general {
+    border-radius: 15px;
     border-style: solid;
     border-width: 5px;
 }
 
 .about {
+    border-radius: 15px;
     border-style: solid;
     border-width: 5px;
     margin-bottom: 10px;
 }
 
 .contact {
+    border-radius: 15px;
     border-style: solid;
     border-width: 5px;
 
@@ -177,7 +182,7 @@ span {
     color: rgb(0, 0, 0);
 }
 
-#begginer {
+#beginner {
     background-color: lightgreen;
 }
 
